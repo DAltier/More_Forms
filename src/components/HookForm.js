@@ -31,7 +31,7 @@ const HookForm = props => {
       <div className="form-group">
         <label htmlFor="lastName">Email</label>
         <input onChange={onChangeHandler} type="text" name="email" />
-        { (state.email.length !== 0 && state.email.length < 5) && <p>Email must be at least 2 characters.</p> }
+        { (state.email.length !== 0 && state.email.length < 5) && <p>Email must be at least 5 characters.</p> }
       </div>
       <div className="form-group">
         <label htmlFor="lastName">Password</label>
